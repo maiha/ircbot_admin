@@ -6,9 +6,9 @@ require 'pathname'
 APP_PATH = File.expand_path('../../../config/application',  __FILE__)
 require File.expand_path('../../../config/boot',  __FILE__)
 ROOT = (Pathname(__FILE__) + '../../..').cleanpath
-
 src  = ARGV.shift
 dst  = ROOT + "dropbox"
+dst.mkpath
 
 if src.nil? or ARGV.size != 0
   $stdout.puts "no srcs given"; exit(-1)
