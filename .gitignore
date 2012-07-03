@@ -15,7 +15,7 @@
 /tmp
 /dropbox
 
-/config/database.yml
+/config/*.yml
 /vendor/ruby
 /config/**/**/*.rb
 !/config/**/**/*.sample

@@ -7,6 +7,10 @@ gem 'rails', '3.2.6'
 
 gem 'pg'
 gem 'sqlite3'
+gem 'icalendar'
+gem 'ccp'
+gem 'typed', '>= 0.2.4'
+gem 'night-time'
 
 gem 'json'
 
