@@ -17,6 +17,8 @@ gem 'json'
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'active_scaffold'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
