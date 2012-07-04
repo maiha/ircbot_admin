@@ -1,6 +1,5 @@
 Admin::Application.routes.draw do
   resources :events do as_routes end
-  resources :momoclos do as_routes end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
