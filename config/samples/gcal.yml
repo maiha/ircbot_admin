@@ -3,3 +3,4 @@ feeds:
 comment: true
 profile: true
 # delete_alerted: true
+# delete_past: true

@@ -4,5 +4,6 @@ class Gcal::Main::Ics < Ccp::Invokers::Base
   command Gcal::Gateway::LoadIcs
   command Gcal::Calculate::Events
   command Gcal::Gateway::DeleteAlerted
+  command Gcal::Gateway::DeletePast
   command Gcal::Gateway::Reminder
 end
