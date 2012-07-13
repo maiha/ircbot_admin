@@ -5,3 +5,4 @@ profile: true
 # delete_alerted: true
 # delete_past: true
 source: "script/gcal/ics"
+format: "[gcal] %s"
