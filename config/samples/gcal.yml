@@ -2,3 +2,5 @@ feeds:
   - "http://www.google.com/calendar/ical/momocloch%40gmail.com/public/basic.ics"
 comment: true
 profile: true
+# delete_alerted: true
+# delete_past: true
