@@ -14,6 +14,8 @@ class Gcal::Common::Variables
   end
 
   def default_variables
-    data.default[:now] = Time.now.to_i
+    data.default[:now]    = Time.now.to_i
+    data.default[:source] = "script/gcal/ics"
+    data.default[:format] = "%s"
   end
 end
