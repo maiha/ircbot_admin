@@ -16,6 +16,7 @@
 /dropbox
 
 /config/*.yml
+/config/unicorn.rb
 /vendor/ruby
 /config/**/**/*.rb
 !/config/**/**/*.sample
