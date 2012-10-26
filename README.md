@@ -15,6 +15,13 @@ Copy config/samples/gcal.yml into config/gcal.yml, setup your configs.
   ./script/gcal/ics.rb config/gcal.yml
 
 
+== Web Server
+
+Copy config/samples/unicorn.yml into config/unicorn.yml, setup your configs.
+
+   bundle exec unicorn_rails  -c config/unicorn.rb -E production 
+
+
 == Test
 
   rake db:test:prepare
