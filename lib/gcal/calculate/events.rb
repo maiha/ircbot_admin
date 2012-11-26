@@ -36,5 +36,9 @@ class Gcal::Calculate::Events
     date = event.start
     time = Time.mktime(date.year, date.month, date.day)
     return NightTime::Jst.parse(event.description, time)
+
+  rescue => err
+    STDERR.puts "[%s] parsing [%s]" % [err.class, event.description]
+    raise
   end
 end
